@@ -54,6 +54,16 @@ KIểm tra cột flag trong bảng more_table
 
 ![image](https://github.com/user-attachments/assets/90e55f04-5245-4a7c-a5bf-c5ca3ee1a075)
 
+#MatchTheRegex
+
+![image](https://github.com/user-attachments/assets/c7b34f81-2f2c-437a-b108-c16e5f416f6b)
+.*? bắt tất cả các kí tự bất kỳ, số lượng ít nhất cả thể, nghĩa là chỉ lấy } đầu tiên bắt gặp
+
+Nếu không có ? sau * thì nó sẽ khớp tới } cuối cùng trong chuỗi lớn
+
+{ } là kí tự đặt biệt trong regular nên cần có dấu \ đứng trước
+
+
 
 
 
