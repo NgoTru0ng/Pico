@@ -61,7 +61,11 @@ KIểm tra cột flag trong bảng more_table
 
 Nếu không có ? sau * thì nó sẽ khớp tới } cuối cùng trong chuỗi lớn
 
-{ } là kí tự đặt biệt trong regular nên cần có dấu \ đứng trước
+![image](https://github.com/user-attachments/assets/d3835e3f-9f22-4148-95cf-005ace686b62)
+![Screenshot 2025-05-06 183102](https://github.com/user-attachments/assets/6961aae8-79a0-4916-b4e1-49a36da9fb96)
+
+
+
 
 
 
