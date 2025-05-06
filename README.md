@@ -64,6 +64,23 @@ Nếu không có ? sau * thì nó sẽ khớp tới } cuối cùng trong chuỗi
 ![image](https://github.com/user-attachments/assets/d3835e3f-9f22-4148-95cf-005ace686b62)
 ![Screenshot 2025-05-06 183102](https://github.com/user-attachments/assets/6961aae8-79a0-4916-b4e1-49a36da9fb96)
 
+# Caas
+![image](https://github.com/user-attachments/assets/746e5afd-8d24-4158-85f6-27ad42af2db4)
+
+>os.system("cowsay " + user_input)
+
+trong shell dấu ; cho phép thực thi nhiều lệnh liên tiếp
+
+![image](https://github.com/user-attachments/assets/f7c67758-e2ff-49d4-a113-9260cd3756d4)
+![image](https://github.com/user-attachments/assets/4db39461-ec20-4caa-babf-ed59fb379acf)
+
+
+
+
+
+
+
+
 
 
 
