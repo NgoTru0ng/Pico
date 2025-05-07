@@ -121,7 +121,9 @@ https://www.mscs.dal.ca/~selinger/md5collision/ tải về 2 file hello.exe và 
  ![Screenshot 2025-05-07 154152](https://github.com/user-attachments/assets/85b8b188-e392-46f9-aa9d-23a039bd0499)
 
  Ta thêm [] vào sau username và pwd thì nó sẽ thành 
+ 
  else if (sha1(array(123) === sha1(array(456)) {
+ 
  => if (null === null)
 
 
