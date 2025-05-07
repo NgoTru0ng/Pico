@@ -91,6 +91,14 @@ Vậy tại sao có thể bypass được password, '' là 1 chuỗi rỗng glob
 ![Screenshot 2025-05-07 123050](https://github.com/user-attachments/assets/98af7f57-76ce-450e-a32f-f8957c526564)
 ![image](https://github.com/user-attachments/assets/596a372d-822f-4294-a861-af9f9301c260)
 
+# It is my Birthday
+Gửi 2 file pdf có hàm băm giống nhau để lấy flag
+https://www.mscs.dal.ca/~selinger/md5collision/ tải về 2 file hello.exe và erase.exe và đổi lại .pdf
+
+![Screenshot 2025-05-07 143003](https://github.com/user-attachments/assets/7f556d34-6530-493d-ba94-ff9da58cc125)
+![Screenshot 2025-05-07 142953](https://github.com/user-attachments/assets/0eae98ab-c92a-4f4c-878c-dc089825568c)
+
+
 
 
 
