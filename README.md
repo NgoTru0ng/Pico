@@ -99,6 +99,38 @@ https://www.mscs.dal.ca/~selinger/md5collision/ tải về 2 file hello.exe và 
 ![Screenshot 2025-05-07 142953](https://github.com/user-attachments/assets/0eae98ab-c92a-4f4c-878c-dc089825568c)
 
 
+# Apriti sesamo
+
+![Screenshot 2025-05-07 153124](https://github.com/user-attachments/assets/60e8a331-071a-4cc1-92d7-8de47ce51add)
+![image](https://github.com/user-attachments/assets/cf1072aa-14bb-42a0-b29d-f9c8c11aac9f)
+
+ Gợi ý liên quan tới Emacs, trong trình soạn thảo emacs khi chỉnh sửa 1 file thì file gốc sẽ được lưu lại và thêm ~ và cuối. Ví dụ file mới là index.php thì file cũ sẽ là index.php~
+
+ ![Screenshot 2025-05-07 153524](https://github.com/user-attachments/assets/e442c091-1605-4d30-b497-a5d2c8b6d22e)
+
+ Sau khi thêm ~ vào cuối thì ta đã nhận được một đoạn mã php
+
+ ![Screenshot 2025-05-07 153615](https://github.com/user-attachments/assets/12067edc-2b2c-4f7d-b87b-32eeef911e5b)
+
+ Chú ý vào đoạn code có flag, khi thảo mãn điều kiện thì flag sẽ được đọc. Vậy làm sao để 2 hàm băm có thể giống nhau?
+
+ Ta có thể làm cho 2 hàm băm nhận giá trị null khi đó null === null , thỏa mản
+
+ Vì php không thể hash array nên ta sẽ cho đầu vào là 1 array
+
+ ![Screenshot 2025-05-07 154152](https://github.com/user-attachments/assets/85b8b188-e392-46f9-aa9d-23a039bd0499)
+
+ Ta thêm [] vào sau username và pwd thì nó sẽ thành 
+ else if (sha1(array(123) === sha1(array(456)) {
+ => if (null === null)
+
+
+
+
+
+
+
+
 
 
 
