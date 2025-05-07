@@ -87,6 +87,7 @@ Username là admin nhưng admin đã bị chặn =))), Trong Sqlite || là toán
 SELECT username, password FROM users WHERE username='adm'||'in' AND password='' glob '*'
 
 Vậy tại sao có thể bypass được password, '' là 1 chuỗi rỗng glob sẽ so sánh với '\*' nếu khớp trả về true mà '*' khớp với bất kì chuỗi nào => trả về true
+
 ![Screenshot 2025-05-07 123050](https://github.com/user-attachments/assets/98af7f57-76ce-450e-a32f-f8957c526564)
 ![image](https://github.com/user-attachments/assets/596a372d-822f-4294-a861-af9f9301c260)
 
